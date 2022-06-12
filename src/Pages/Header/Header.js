@@ -15,7 +15,7 @@ const Header = () => {
           Home
         </Link>
         <Link
-          to="/"
+          to="/about"
           className="mx-6 text-lg font-medium text-gray-400 transition-all duration-300 hover:text-white"
         >
           About
@@ -27,7 +27,7 @@ const Header = () => {
           Project
         </Link>
         <Link
-          to="/"
+          to="/contact"
           className="mx-6 text-lg font-medium text-gray-400 transition-all duration-300 hover:text-white"
         >
           Contact

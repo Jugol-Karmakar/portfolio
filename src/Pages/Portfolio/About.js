@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import jugol from "../../images/jugol.jpg";
+import jugol2 from "../../images/jugol2.jpg";
 
 const About = () => {
   return (
     <div className="container mx-auto px-10 flex flex-col lg:flex-row items-center">
-      <div className="flex justify-center lg:justify-start mt-10 lg:mt-0 w-full lg:w-1/2">
+      <div className="flex justify-center lg:justify-start mt-10 lg:mt-0 lg:w-1/2 w-full">
         <img
-          className="h-full max-h-[500px] object-contain rounded-full"
-          src={jugol}
+          className="h-full max-h-[400px] object-contain rounded-full"
+          src={jugol2}
           alt=""
         />
       </div>
